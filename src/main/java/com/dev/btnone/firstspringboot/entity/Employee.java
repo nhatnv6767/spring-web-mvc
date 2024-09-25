@@ -11,6 +11,11 @@ public class Employee {
         this.age = age;
     }
 
+    @Override
+    public String toString() {
+        return "id: " + id + ", name: " + name + ", age: " + age;
+    }
+
     public Long getId() {
         return id;
     }
